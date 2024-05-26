@@ -10,9 +10,6 @@ def create_numbered_folders(root_folder):
         if parent_dir == root_folder:
             continue
 
-        # Sort the subdirectories to ensure consistent order
-        sub_dirs.sort()
-
         # Skip if the current subdirectory has no files
         if not files:
             continue
